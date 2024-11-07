@@ -1,7 +1,7 @@
 .header {
     margin-bottom: 30px;
-    background-color: #666;
-    height: 150px;
+    background-color: #66666699;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -62,4 +62,31 @@
     font-size: 12pt;
     padding: 5mm;
     border-top: 1px solid #ccc;
+}
+
+h4 {
+    text-align: center;
+    margin: 10px;
+    background-color: #66666699;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12pt;
+    }
+    
+    th {
+    background-color: #f0f0f0;
+    padding: 10px;
+    text-align: left;
+    }
+    
+    td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    }
+
+.especial {
+    margin-top: 15px;
 }

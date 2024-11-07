@@ -1,0 +1,65 @@
+.header {
+    margin-bottom: 30px;
+    background-color: #666;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f7f7f7;
+    padding: 10px;
+    box-sizing: border-box;
+    }
+
+.logo {
+    margin-right: 20mm;
+}
+
+.dados {
+    text-align: right;
+    margin: 15px;
+}
+
+.dados h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.dados h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dados p {
+    font-size: 18px;
+    color: #666;
+}
+
+.campo {
+    margin-bottom: 10mm;
+}
+
+.campo label {
+    display: block;
+    margin-bottom: 5mm;
+}
+
+.campo input {
+    width: 100%;
+    height: 30px;
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.rodape {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    font-size: 12pt;
+    padding: 5mm;
+    border-top: 1px solid #ccc;
+}
